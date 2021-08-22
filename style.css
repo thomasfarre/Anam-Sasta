@@ -2,24 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tenali+Ramakrishna&display=swap');
 
 
+/*Utility class */
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/*Html class*/
+
+
 body {
   font-family: 'Tenali Ramakrishna', sans-serif;
   color: #2C202A;
-  padding: 0 2em 0 2em;
+  padding: 0 3em 0 3em;
 }
 
 
 .header {
 
-  padding-top : 60px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  padding-top : 40px;
 
-}
-
-.text-center {
-  text-align: center;
 }
 
 .logo {
@@ -48,7 +57,7 @@ body {
   padding-left: 80px;
   padding-bottom: 20px;
   padding-top: 20px;
-  font-size: 50px;
+  font-size: 60px;
   border-radius: 32px;
   background-color: #FBC062;
   font-family: 'Dancing Script', cursive;
@@ -58,9 +67,9 @@ body {
 
 #banner {
 
-  margin-top: 100px;
+  margin-top: 80px;
  /* height: 45vh;*/
-  width: calc(100% + 160px);
+  width: calc(100% + 190px);
   overflow: hidden;
 /*  object-fit: cover;
   object-position: center;*/
@@ -73,5 +82,128 @@ body {
 .description {
 
   margin-top: 30px;
+  margin-bottom: 80px;
   font-size: 24px;
+}
+
+section {
+  padding-top: 80px;
+}
+
+h2 {
+  font-size: 100px;
+  margin: 0;
+  color: #72526B;
+  font-weight: 500;
+}
+
+.card {
+  max-width: 800px;
+  margin-top: 80px;
+
+}
+
+.card > p {
+  font-size: 44px;
+  margin: 0;
+  margin-top: -20px;
+}
+
+.card > img {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.myself {
+  margin-top: 600px;
+  margin-bottom: 200px;
+  background-color: #4A3546;
+  color: white;
+  width: calc(100% + 140px);
+  margin-left: -80px;
+}
+
+.myself > p {
+  padding-top: 80px;
+  font-size: 50px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.myself > img {
+  margin-top: -290px;
+  border-radius: 100px;
+  width: 800px;
+}
+
+.pitch {
+  margin-top: 80px;
+}
+
+.pitch > h2 {
+  color: #2C202A;
+}
+
+.pitch > p {
+  font-size: 40px;
+}
+
+.pitch > button {
+  margin-top: 140px;
+}
+
+
+.price {
+  margin-top: 180px;
+  background-color: #4A3546;
+  color: white;
+  width: calc(100% + 140px);
+  margin-left: -80px;
+}
+
+
+
+.price > p {
+  font-size: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.price > h2 {
+  font-weight: 600;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: 110px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.price > h4 {
+  padding-top: 80px;
+  font-size: 80px;
+  font-weight: 600;
+  max-width: 800px;
+  margin: auto;
+}
+
+.contact {
+  background-color: #F1E1E1;
+  color: #5C3434;
+  width: calc(100% + 140px);
+  margin-left: -80px;
+}
+
+.contact > h2 {
+  font-weight: 600;
+  padding-top: 80px;
+  font-size: 110px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.contact > p {
+  font-size: 20px;
+  max-width: 800px;
+  margin: auto;
 }
