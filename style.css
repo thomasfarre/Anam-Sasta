@@ -29,8 +29,7 @@ body {
 
 .title {
   font-family: 'Dancing Script', cursive;
-  font-size: 3.75rem;
-  line-height: 1;
+  font-size: 100px;
   font-weight: 600;
   color: #72526B;
   margin-bottom: 8px;
@@ -38,8 +37,7 @@ body {
 }
 
 .subtitle {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 40px;
   margin-top: 10px;
   color: #814D5E;
 }
@@ -50,8 +48,7 @@ body {
   padding-left: 80px;
   padding-bottom: 20px;
   padding-top: 20px;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 50px;
   border-radius: 32px;
   background-color: #FBC062;
   font-family: 'Dancing Script', cursive;
@@ -61,8 +58,8 @@ body {
 
 #banner {
 
-  margin-top: 140px;
-  height: 45vh;
+  margin-top: 100px;
+ /* height: 45vh;*/
   width: calc(100% + 160px);
   overflow: hidden;
 /*  object-fit: cover;
@@ -76,6 +73,5 @@ body {
 .description {
 
   margin-top: 30px;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 24px;
 }
