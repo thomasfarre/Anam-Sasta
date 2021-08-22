@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tenali+Ramakrishna&display=swap');
+
+
+body {
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  color: #2C202A;
+  padding: 0 2em 0 2em;
+}
+
+
+.header {
+
+  padding-top : 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.logo {
+  width: 250px;
+  height: 170px;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 600;
+  color: #72526B;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 10px;
+  color: #814D5E;
+}
+
+.cta {
+  margin-top: 80px;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  border-radius: 32px;
+  background-color: #FBC062;
+  font-family: 'Dancing Script', cursive;
+  border: none;
+  outline: inherit;
+}
+
+#banner {
+
+  margin-top: 140px;
+  height: 45vh;
+  width: calc(100% + 160px);
+  overflow: hidden;
+/*  object-fit: cover;
+  object-position: center;*/
+
+  margin-left: -80px;
+
+}
+
+
+.description {
+
+  margin-top: 30px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
