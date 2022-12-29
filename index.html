@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.min.css">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <!-- Alpine Plugins -->
     <script defer src="https://unpkg.com/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
@@ -16,9 +16,9 @@
 </head>
 
 <body class="pb-40">
-  <header class="py-2 px-3 flex items-center space-x-7 bg-white z-50 sticky top-0">
+  <header class="sticky top-0 z-50 flex items-center px-3 py-2 bg-white space-x-7">
     <a href="./">
-      <svg class="text-purple-900 w-10 h-10" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+      <svg class="w-10 h-10 text-purple-900" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
         <path d="M29.1375 5.11298C29.5768 5.11298 29.999 5.27814 30.3212 5.57407L30.3724 5.62525C30.7005 5.95342 30.8848 6.39846 30.8848 6.8625C30.8848 7.32654 30.7005 7.77158 30.3724 8.09975L30.3722 8.09995L28.7837 9.6907L28.7836 9.69065L28.7779 9.69664C28.6164 9.86379 28.4233 9.99711 28.2098 10.0888C27.9963 10.1805 27.7667 10.2288 27.5343 10.2308C27.3019 10.2329 27.0715 10.1886 26.8564 10.1006C26.6414 10.0126 26.446 9.88265 26.2817 9.71834C26.1174 9.55402 25.9874 9.35863 25.8994 9.14356C25.8114 8.92849 25.7671 8.69805 25.7692 8.46569C25.7712 8.23333 25.8195 8.00369 25.9112 7.79019C26.0029 7.57668 26.1362 7.38358 26.3034 7.22214L26.3034 7.2222L26.3096 7.21605L27.9002 5.62536C27.9003 5.62534 27.9003 5.62532 27.9003 5.6253C28.2285 5.29726 28.6735 5.11298 29.1375 5.11298ZM7.21618 9.69057L7.21605 9.69045L5.62856 8.10295C5.31157 7.77321 5.13624 7.33242 5.14021 6.87494C5.1442 6.4161 5.32825 5.97717 5.65271 5.65271C5.97717 5.32825 6.4161 5.1442 6.87494 5.14021C7.33249 5.13624 7.77334 5.31162 8.10309 5.62869L9.69257 7.21593C9.85506 7.37853 9.98393 7.57155 10.0718 7.78395C10.1597 7.99636 10.2049 8.224 10.2048 8.45387C10.2047 8.68374 10.1594 8.91135 10.0713 9.12369C9.9833 9.33604 9.8543 9.52896 9.6917 9.69145C9.52909 9.85393 9.33608 9.9828 9.12367 10.0707C8.91127 10.1586 8.68363 10.2038 8.45376 10.2037C8.22388 10.2036 7.99628 10.1583 7.78393 10.0702C7.57159 9.98218 7.37867 9.85317 7.21618 9.69057ZM18 0.5C18.4641 0.5 18.9092 0.684374 19.2374 1.01256C19.5656 1.34075 19.75 1.78587 19.75 2.25V4.5C19.75 4.96413 19.5656 5.40925 19.2374 5.73744C18.9092 6.06563 18.4641 6.25 18 6.25C17.5359 6.25 17.0908 6.06563 16.7626 5.73744C16.4344 5.40925 16.25 4.96413 16.25 4.5V2.25C16.25 1.78587 16.4344 1.34075 16.7626 1.01256C17.0908 0.684374 17.5359 0.5 18 0.5ZM26.5 18C26.5 20.2543 25.6045 22.4163 24.0104 24.0104C22.4163 25.6045 20.2543 26.5 18 26.5C15.7457 26.5 13.5837 25.6045 11.9896 24.0104C10.3955 22.4163 9.5 20.2543 9.5 18C9.5 15.7457 10.3955 13.5837 11.9896 11.9896C13.5837 10.3955 15.7457 9.5 18 9.5C20.2543 9.5 22.4163 10.3955 24.0104 11.9896C25.6045 13.5837 26.5 15.7457 26.5 18ZM27.897 30.3714L26.3128 28.7872C25.9958 28.4575 25.8205 28.0167 25.8245 27.5592C25.8285 27.1003 26.0125 26.6614 26.337 26.337C26.6614 26.0125 27.1003 25.8285 27.5592 25.8245C28.0167 25.8205 28.4575 25.9958 28.7872 26.3128L30.3714 27.897C30.6884 28.2268 30.8638 28.6676 30.8598 29.1251C30.8558 29.5839 30.6718 30.0228 30.3473 30.3473C30.0228 30.6718 29.5839 30.8558 29.1251 30.8598C28.6676 30.8638 28.2268 30.6884 27.897 30.3714ZM34.9874 19.2374C34.6592 19.5656 34.2141 19.75 33.75 19.75H31.5C31.0359 19.75 30.5908 19.5656 30.2626 19.2374C29.9344 18.9092 29.75 18.4641 29.75 18C29.75 17.5359 29.9344 17.0908 30.2626 16.7626C30.5908 16.4344 31.0359 16.25 31.5 16.25H33.75C34.2141 16.25 34.6592 16.4344 34.9874 16.7626C35.3156 17.0908 35.5 17.5359 35.5 18C35.5 18.4641 35.3156 18.9092 34.9874 19.2374ZM18 29.75C18.4641 29.75 18.9092 29.9344 19.2374 30.2626C19.5656 30.5908 19.75 31.0359 19.75 31.5V33.75C19.75 34.2141 19.5656 34.6592 19.2374 34.9874C18.9092 35.3156 18.4641 35.5 18 35.5C17.5359 35.5 17.0908 35.3156 16.7626 34.9874C16.4344 34.6592 16.25 34.2141 16.25 33.75V31.5C16.25 31.0359 16.4344 30.5908 16.7626 30.2626C17.0908 29.9344 17.5359 29.75 18 29.75ZM9.68716 28.7872L8.10296 30.3714C7.77322 30.6884 7.33243 30.8638 6.87494 30.8598C6.4161 30.8558 5.97717 30.6718 5.65271 30.3473C5.32825 30.0228 5.1442 29.5839 5.14021 29.1251C5.13624 28.6676 5.31158 28.2268 5.62858 27.897L7.2128 26.3128C7.54254 25.9958 7.98333 25.8205 8.44081 25.8245C8.89965 25.8285 9.33857 26.0125 9.66304 26.337C9.9875 26.6614 10.1715 27.1003 10.1755 27.5592C10.1795 28.0167 10.0042 28.4575 9.68716 28.7872ZM5.73744 19.2374C5.40925 19.5656 4.96413 19.75 4.5 19.75H2.25C1.78587 19.75 1.34075 19.5656 1.01256 19.2374C0.684374 18.9092 0.5 18.4641 0.5 18C0.5 17.5359 0.684374 17.0908 1.01256 16.7626C1.34075 16.4344 1.78587 16.25 2.25 16.25H4.5C4.96413 16.25 5.40925 16.4344 5.73744 16.7626C6.06563 17.0908 6.25 17.5359 6.25 18C6.25 18.4641 6.06563 18.9092 5.73744 19.2374Z" fill="#F7BE64" stroke="currentColor"/>
       </svg>
     </a>
@@ -30,7 +30,7 @@
         class="relative overflow-hidden"
       >
         <span
-          class="text-xl text-gray-500 font-tenali transition ease-out duration-300 hover:text-gray-900"
+          class="text-xl text-gray-500 transition duration-300 ease-out font-tenali hover:text-gray-900"
         >
           Pricing
         </span>
@@ -53,7 +53,7 @@
         class="relative overflow-hidden"
       >
         <span
-          class="text-xl text-gray-500 font-tenali transition ease-out duration-300 hover:text-gray-900"
+          class="text-xl text-gray-500 transition duration-300 ease-out font-tenali hover:text-gray-900"
         >
           About
         </span>
@@ -76,7 +76,7 @@
         class="relative overflow-hidden"
       >
         <span
-          class="text-xl text-gray-500 font-tenali transition ease-out duration-300 hover:text-gray-900"
+          class="text-xl text-gray-500 transition duration-300 ease-out font-tenali hover:text-gray-900"
         >
           Plan a visit
         </span>
@@ -98,32 +98,32 @@
     <section class="bg-lemon-100 rounded-2xl">
       <div class="px-4 pt-20 pb-8 mx-auto text-center">
         <div>
-          <span class="font-dancing text-5xl text-mauve-700 tracking-tighter font-bold">
+          <span class="text-5xl font-bold tracking-tighter font-dancing text-mauve-700">
             Anam Sásta
           </span>
         </div>
         <div>
-          <span class="font-tenali text-lg text-gray-700">
+          <span class="text-lg text-gray-700 font-tenali">
             Holistic Massages
           </span>
         </div>
         <div class="pt-4">
-          <button class="px-8 py-2 bg-lemon-300 text-gray-900 font-dancing text-xl font-bold tracking-wide rounded-lg shadow-md">
+          <button class="px-8 py-2 text-xl font-bold tracking-wide text-gray-900 rounded-lg shadow-md bg-lemon-300 font-dancing">
             Discover
           </button>
         </div>
       </div>
       <div class="">
-        <img class="h-full w-full" src="./assets/banner.png" alt="">
+        <img class="w-full h-full" src="./assets/banner.png" alt="">
       </div>
     </section>
     <section>
-      <div class="pt-6 flex">
-        <span class="text-gray-900 text-lg font-tenali text-center">
+      <div class="flex pt-6">
+        <span class="text-lg text-center text-gray-900 font-tenali">
           “If you listen to your body when it whispers, you won’t have to hear it scream.”
         </span>
       </div>
-      <div class="pt-20 flex justify-center">
+      <div class="flex justify-center pt-20">
         <svg width="249" height="69" viewBox="0 0 249 69" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M246.192 63.0546C242.348 62.0488 238.965 60.8138 236.176 59.3984C229.498 56.542 221 53 205.217 53C189.434 53 181.239 56.4276 174.258 59.5128C167.277 62.5977 162.724 64.4258 152.405 64.4258C142.085 64.4258 136.925 62.2548 130.552 59.5128C124.178 56.7706 115.679 53 99.5929 53C83.5063 53 75.6152 56.4276 68.6339 59.5128C61.6532 62.5977 57.1003 64.4258 46.7808 64.4258C36.4614 64.4258 31.3014 62.2548 24.9277 59.5128C20.595 57.3586 15.116 55.5686 8.84117 54.2569C5.82371 53.6889 2.155 54.1493 0.646263 55.2852C-0.86247 56.4211 0.360435 57.8021 3.3779 58.3701C8.14345 59.4513 12.3577 60.8444 15.8219 62.4834C22.8026 65.5683 30.9975 68.9962 46.7808 68.9962C62.5641 68.9962 70.7585 65.5685 77.7398 62.4834C84.7205 59.3984 89.2734 57.5703 99.5929 57.5703C109.912 57.5703 115.072 59.7413 121.446 62.4834C127.82 65.2256 136.318 68.9962 152.405 68.9962C168.491 68.9962 176.383 65.5685 183.364 62.4834C190.345 59.3984 194.898 57.5703 205.217 57.5703C215.536 57.5703 220.696 59.7413 227.07 62.4834C230.607 64.1931 234.801 65.6949 239.514 66.9393C242.364 67.6335 246.169 67.3266 248.013 66.2537C249.857 65.181 249.042 63.7487 246.192 63.0546Z" fill="#9CA3AF"/>
           <path d="M246.192 45.4748C242.348 44.469 238.965 43.2341 236.176 41.8186C229.498 38.9622 221 35.4202 205.217 35.4202C189.434 35.4202 181.239 38.8479 174.258 41.933C167.277 45.018 162.724 46.8461 152.405 46.8461C142.085 46.8461 136.925 44.675 130.552 41.933C124.178 39.1908 115.679 35.4202 99.5929 35.4202C83.5063 35.4202 75.6152 38.8479 68.6339 41.933C61.6532 45.018 57.1003 46.8461 46.7808 46.8461C36.4614 46.8461 31.3014 44.675 24.9277 41.933C20.595 39.7789 15.116 37.9888 8.84117 36.6771C5.82371 36.1091 2.155 36.5695 0.646263 37.7054C-0.86247 38.8413 0.360435 40.2224 3.3779 40.7903C8.14345 41.8716 12.3577 43.2647 15.8219 44.9036C22.8026 47.9885 30.9975 51.4164 46.7808 51.4164C62.5641 51.4164 70.7585 47.9887 77.7398 44.9036C84.7205 41.8186 89.2734 39.9906 99.5929 39.9906C109.912 39.9906 115.072 42.1616 121.446 44.9036C127.82 47.6458 136.318 51.4164 152.405 51.4164C168.491 51.4164 176.383 47.9887 183.364 44.9036C190.345 41.8186 194.898 39.9906 205.217 39.9906C215.536 39.9906 220.696 42.1616 227.07 44.9036C230.607 46.6134 234.801 48.1152 239.514 49.3595C242.364 50.0537 246.169 49.7469 248.013 48.6739C249.857 47.6014 249.042 46.169 246.192 45.4748Z" fill="#9CA3AF"/>
@@ -133,8 +133,8 @@
       </div>
     </section>
     <section class="pt-20 space-y-20">
-      <div class="px-4 pt-12 pb-6 shadow-xl bg-mauve-50 rounded-2xl relative">
-        <div class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-0 bg-white w-20 h-20 flex items-center justify-center rounded-2xl">
+      <div class="relative px-4 pt-12 pb-6 shadow-xl bg-mauve-50 rounded-2xl">
+        <div class="absolute top-0 flex items-center justify-center w-20 h-20 transform -translate-x-1/2 -translate-y-1/2 bg-white left-1/2 rounded-2xl">
           <svg class="w-16 h-16" viewBox="0 0 81 70" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <mask id="mask0_642_52" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="81" height="70">
             <rect x="0.42276" y="0.172302" width="80.1544" height="69.6739" fill="url(#pattern0)"/>
@@ -152,19 +152,19 @@
         </div>
         <div class="pt-5">
           <div class="text-center">
-            <span class="font-tenali text-4xl tracking-tight text-gray-900">
+            <span class="text-4xl tracking-tight text-gray-900 font-tenali">
               Holistic Massage
             </span>
           </div>
           <div class="pt-2 text-center">
-            <span class="font-tenali text-xl text-gray-700">
+            <span class="text-xl text-gray-700 font-tenali">
               During a session, I’m not only focusing on your physical body, but also on your emotions, mind and energetic body, to help you feel more wholesomeness,
             </span>
           </div>
         </div>
       </div>
-      <div class="px-4 pt-12 pb-6 shadow-xl bg-mauve-50 rounded-2xl relative">
-        <div class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-0 bg-white w-20 h-20 flex items-center justify-center rounded-2xl">
+      <div class="relative px-4 pt-12 pb-6 shadow-xl bg-mauve-50 rounded-2xl">
+        <div class="absolute top-0 flex items-center justify-center w-20 h-20 transform -translate-x-1/2 -translate-y-1/2 bg-white left-1/2 rounded-2xl">
           <svg class="w-16 h-16" viewBox="0 0 80 68" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M34.276 49.6321C33.7553 49.1896 32.9113 49.1896 32.3906 49.6321C32.2653 49.7397 19.6146 60.2355 3.36529 51.7344C2.74308 51.4466 1.96473 51.6226 1.593 52.1352C1.22127 52.6477 1.38595 53.3178 1.96795 53.6611C6.22744 55.9992 11.1766 57.2684 16.2466 57.3229C22.9219 57.1969 29.3212 55.0344 34.276 51.2301C34.7929 50.788 34.7929 50.0741 34.276 49.6321Z" fill="#6E3562"/>
             <path d="M28.7373 61.7043C28.5853 61.7689 13.4827 68.0419 3.60935 59.6507C3.08618 59.2212 2.25457 59.2274 1.74026 59.6645C1.22594 60.1017 1.21872 60.8086 1.72401 61.2533C5.67869 64.582 11.0617 66.3929 16.6253 66.266C21.2176 66.2065 25.7463 65.3439 29.9293 63.7319C30.3593 63.5528 30.6433 63.1914 30.6734 62.7852C30.7034 62.379 30.4749 61.9903 30.0747 61.7669C29.6744 61.5434 29.164 61.5196 28.7373 61.7043Z" fill="#6E3562"/>
@@ -175,12 +175,12 @@
         </div>
         <div class="pt-5">
           <div class="text-center">
-            <span class="font-tenali text-4xl tracking-tight text-gray-900">
+            <span class="text-4xl tracking-tight text-gray-900 font-tenali">
               Holistic Massage
             </span>
           </div>
           <div class="pt-2 text-center">
-            <span class="font-tenali text-xl text-gray-700">
+            <span class="text-xl text-gray-700 font-tenali">
               During a session, I’m not only focusing on your physical body, but also on your emotions, mind and energetic body, to help you feel more wholesomeness,
             </span>
           </div>
@@ -188,23 +188,23 @@
       </div>
     </section>
     <section class="pt-60">
-      <div class="bg-mauve-900 relative">
-        <div class="px-4 absolute top-0 left-1/2 w-full -translate-x-1/2 transform -translate-y-1/2 flex justify-center">
-          <img class="h-48 w-full object-cover rounded-2xl" src="./assets/potrait.png" alt="">
+      <div class="relative bg-mauve-900">
+        <div class="absolute top-0 flex justify-center w-full px-4 transform -translate-x-1/2 -translate-y-1/2 left-1/2">
+          <img class="object-cover w-full h-48 rounded-2xl" src="./assets/potrait.png" alt="">
         </div>
-        <div class="pt-28 px-8 pb-4">
+        <div class="px-8 pb-4 pt-28">
           <div>
             <svg class="w-10 h-10" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
              <path d="M21.042 9C10.026 16.776 2.25 29.52 2.25 43.56C2.25 55.008 9.162 61.704 17.154 61.704C24.714 61.704 30.33 55.656 30.33 48.528C30.33 41.4 25.362 36.216 18.882 36.216C17.586 36.216 15.858 36.432 15.426 36.648C16.506 29.304 23.418 20.664 30.33 16.344L21.042 9ZM58.194 9C47.394 16.776 39.618 29.52 39.618 43.56C39.618 55.008 46.53 61.704 54.522 61.704C61.866 61.704 67.698 55.656 67.698 48.528C67.698 41.4 62.514 36.216 56.034 36.216C54.738 36.216 53.226 36.432 52.794 36.648C53.874 29.304 60.57 20.664 67.482 16.344L58.194 9Z" fill="#F5E0F0" fill-opacity="0.25"/>
             </svg>
           </div>
           <div class="pt-2">
-            <span class="font-tenali text-mauve-50 text-xl">
+            <span class="text-xl font-tenali text-mauve-50">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.
             </span>
           </div>
           <div class="pt-4">
-            <span class="font-tenali text-mauve-50 text-xl">
+            <span class="text-xl font-tenali text-mauve-50">
               Jean-Jacques
             </span>
           </div>
@@ -222,19 +222,19 @@
       </div>
       <div class="pt-20">
         <div>
-          <span class="font-tenali text-4xl text-gray-900 tracking-tight">
+          <span class="text-4xl tracking-tight text-gray-900 font-tenali">
             Praesent sapien massa
           </span>
         </div>
         <div class="pt-2">
-          <span class="font-tenali text-xl text-gray-700">
+          <span class="text-xl text-gray-700 font-tenali">
             You’ll benefit from a personalized treatment, based on Deep flow therapy (https://deepflow.ca/), using different technics such as Myo fascial release, Thai massage, Deep Tissue, Swedish massage.
 I make my own aromatherapy oils blends, according to your needs.
 Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
           </span>
         </div>
         <div class="pt-8">
-          <button class="px-8 py-2 bg-lemon-300 text-gray-900 font-dancing text-xl font-bold tracking-wide rounded-lg shadow-md">
+          <button class="px-8 py-2 text-xl font-bold tracking-wide text-gray-900 rounded-lg shadow-md bg-lemon-300 font-dancing">
             Plan a visit
           </button>
         </div>
