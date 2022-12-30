@@ -3,10 +3,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-@media (min-width: 1180px) {
-  .banner-position {
-    object-position: 82px -260px;
-  }
-}
