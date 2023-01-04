@@ -14,11 +14,11 @@ module.exports = {
           200: "#FCD591",
           300: "#F7BE64",
           400: "#F89720",
-          500: "#F07D05",
-          600: "#C55C07",
-          700: "#A84505",
-          800: "#8F3300",
-          900: "#7A2C00",
+          500: "#DC7304",
+          600: "#AC5106",
+          700: "#A34305",
+          800: "#7A2C00",
+          900: "#571F00",
         },
         mauve: {
           50: "#FBF4FA",
@@ -35,9 +35,7 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require("@tailwindcss/typography"),
-  ],
+  plugins: [require("@tailwindcss/typography")],
 };
 
 
