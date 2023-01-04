@@ -1,8 +1,6 @@
 <!DOCTYPE html> <!-- proper HTML5 doctype -->
 <html lang="fr">
-
 <head>
-
     <meta charset="utf-8">
     <title>Anam Sasta Massage: Revitalize Your Mind, Body, and Spirit</title>
     <meta name="author" content="Jean-Jacques">
@@ -16,13 +14,25 @@
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 
-<body class="bg-gray-50">
-  <header class="py-4 bg-gray-50 lg:sticky lg:top-0 lg:z-50">
-    <div class="flex items-center max-w-lg px-3 mx-auto space-x-7 lg:px-12 lg:max-w-7xl lg:space-x-16 ">
-      <a class="transition duration-300 ease-out transform hover:scale-110 group" href="./">
+<body
+  class="bg-gray-50"
+>
+  <header
+    class="py-4 bg-gray-50 lg:sticky lg:top-0 lg:z-50"
+  >
+    <div
+      class="flex items-center max-w-lg px-3 mx-auto space-x-7 lg:px-12 lg:max-w-7xl lg:space-x-16"
+    >
+      <a
+        class="transition duration-300 ease-out transform hover:scale-110 group"
+        href="./"
+        aria-label="logo_icon"
+      >
         <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-purple-900 lg:w-14 lg:h-14 group-hover:text-mauve-700" viewBox="0 0 36 36"><path fill="#F7BE64" stroke="currentColor" d="M29.137 5.113c.44 0 .862.165 1.184.461l.051.051a1.75 1.75 0 0 1 0 2.475l-1.588 1.59-.006.007a1.75 1.75 0 1 1-2.475-2.475l.007-.006 1.59-1.59a1.75 1.75 0 0 1 1.238-.513ZM7.217 9.691 5.628 8.102a1.75 1.75 0 0 1 2.474-2.474l1.59 1.587A1.75 1.75 0 1 1 7.216 9.69ZM18 .5a1.75 1.75 0 0 1 1.75 1.75V4.5a1.75 1.75 0 0 1-3.5 0V2.25A1.75 1.75 0 0 1 18 .5ZM26.5 18a8.5 8.5 0 1 1-17 0 8.5 8.5 0 0 1 17 0Zm1.397 12.371-1.584-1.584a1.75 1.75 0 0 1 2.474-2.474l1.584 1.584a1.75 1.75 0 0 1-2.474 2.474Zm7.09-11.134a1.75 1.75 0 0 1-1.237.513H31.5a1.75 1.75 0 0 1 0-3.5h2.25a1.75 1.75 0 0 1 1.237 2.987ZM18 29.75a1.75 1.75 0 0 1 1.75 1.75v2.25a1.75 1.75 0 0 1-3.5 0V31.5A1.75 1.75 0 0 1 18 29.75Zm-8.313-.963-1.584 1.584a1.75 1.75 0 0 1-2.474-2.474l1.584-1.584a1.75 1.75 0 0 1 2.474 2.474Zm-3.95-9.55a1.75 1.75 0 0 1-1.237.513H2.25a1.75 1.75 0 0 1 0-3.5H4.5a1.75 1.75 0 0 1 1.237 2.987Z"/></svg>
       </a>
-      <div class="flex space-x-4 lg:mt-2 lg:space-x-10">
+      <div
+        class="flex space-x-4 lg:mt-2 lg:space-x-10"
+      >
         <button
           @click="borderVisible=true; document.querySelector('#pricingSection').scrollIntoView({behavior: 'smooth', block: 'start'});"
           @click.outside="borderVisible=false"
@@ -159,7 +169,7 @@
           </span>
         </div>
         <div>
-          <span class="text-xl text-gray-500 font-tenali lg:text-2xl">
+          <span class="text-xl text-gray-700 font-tenali lg:text-2xl">
             During a session, I'm not only focusing on your physical body, but also on your emotions, mind and energetic body, to help you feel more wholesomeness,
           </span>
         </div>
@@ -180,7 +190,7 @@
               class="text-center"
             >
               <span
-                class="text-3xl tracking-tight text-gray-900 font-tenali"
+                class="text-3xl tracking-tight text-gray-900 font-tenali lg:text-4xl"
               >
                 Relaxation
               </span>
@@ -189,7 +199,7 @@
               class="pt-2 text-center"
             >
               <span
-                class="text-xl text-gray-500 font-tenali lg:text-2xl"
+                class="text-xl text-gray-700 font-tenali lg:text-2xl"
               >
                 Massage is known to be a great stress-reliever and can help you relax and unwind.
               </span>
@@ -211,7 +221,7 @@
               class="text-center"
             >
               <span
-                class="text-3xl tracking-tight text-gray-900 font-tenali"
+                class="text-3xl tracking-tight text-gray-900 font-tenali lg:text-4xl"
               >
                 Improved circulation
               </span>
@@ -220,7 +230,7 @@
               class="pt-2 text-center"
             >
               <span
-                class="text-xl text-gray-500 font-tenali lg:text-2xl"
+                class="text-xl text-gray-700 font-tenali lg:text-2xl"
               >
                 Massage can improve circulation by increasing blood flow to the muscles and tissues.
               </span>
@@ -242,7 +252,7 @@
               class="text-center"
             >
               <span
-                class="text-3xl tracking-tight text-gray-900 font-tenali"
+                class="text-3xl tracking-tight text-gray-900 font-tenali lg:text-4xl"
               >
                 Pain relief
               </span>
@@ -251,7 +261,7 @@
               class="pt-2 text-center"
             >
               <span
-                class="text-xl text-gray-500 font-tenali lg:text-2xl"
+                class="text-xl text-gray-700 font-tenali lg:text-2xl"
               >
                 Massage can help reduce muscle tension and pain, particularly in areas prone to discomfort.
               </span>
@@ -273,7 +283,7 @@
               class="text-center"
             >
               <span
-                class="text-3xl tracking-tight text-gray-900 font-tenali"
+                class="text-3xl tracking-tight text-gray-900 font-tenali lg:text-4xl"
               >
                 Improved sleep
               </span>
@@ -282,7 +292,7 @@
               class="pt-2 text-center"
             >
               <span
-                class="text-xl text-gray-500 font-tenali lg:text-2xl"
+                class="text-xl text-gray-700 font-tenali lg:text-2xl"
               >
                 Massage can help to relax the body and mind, making it easier to fall asleep and get a good night's rest
               </span>
@@ -304,7 +314,7 @@
               class="text-center"
             >
               <span
-                class="text-3xl tracking-tight text-gray-900 font-tenali"
+                class="text-3xl tracking-tight text-gray-900 font-tenali lg:text-4xl"
               >
                 Improved flexibility
               </span>
@@ -313,7 +323,7 @@
               class="pt-2 text-center"
             >
               <span
-                class="text-xl text-gray-500 font-tenali lg:text-2xl"
+                class="text-xl text-gray-700 font-tenali lg:text-2xl"
               >
                 Massage can help to increase flexibility and range of motion by improving the elasticity of the muscles and tissues.
               </span>
@@ -335,7 +345,7 @@
               class="text-center"
             >
               <span
-                class="text-3xl tracking-tight text-gray-900 font-tenali"
+                class="text-3xl tracking-tight text-gray-900 font-tenali lg:text-4xl"
               >
                 Improved immune function
               </span>
@@ -344,7 +354,7 @@
               class="pt-2 text-center"
             >
               <span
-                class="text-xl text-gray-500 font-tenali lg:text-2xl"
+                class="text-xl text-gray-700 font-tenali lg:text-2xl"
               >
                 Massage boost the immune system by increasing the production of white blood cells and other immune cells.
               </span>
