@@ -115,11 +115,16 @@
           </div>
         </div>
         <div class="lg:w-3/5">
-          <img
-            class="w-full h-full lg:object-cover"
-            src="./assets/banner.png"
-            alt=""
-          >
+          <picture>
+            <source media="(min-width: 1024px)"
+                srcset="./assets/banner_mobile.webp"
+            >
+            <img
+              class="w-full h-full lg:object-cover"
+              src="./assets/banner_mobile.webp"
+              alt=""
+            >
+          </picture>
         </div>
       </div>
     </section>
